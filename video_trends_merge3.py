@@ -210,7 +210,7 @@ if file:
         new_text = " ".join([tok for tok in tokenized_list if tok not in emoji_dict])
         commentsList_URLEmoji.append(new_text)
     
-    topic_model = BERTopic.load("topic_model")
+    topic_model = BERTopic.load("./topic_model")
     #fig = topic_model.visualize_barchart(top_n_topics=10, n_words=10, height=400)
     #--------------------------------------------------------------------------------
     
