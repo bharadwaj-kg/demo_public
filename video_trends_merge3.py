@@ -154,7 +154,7 @@ if file:
     import emoji
 
     import spacy
-    nlp_model = spacy.load('en_core_web_md', disable=['parser', 'ner'])
+    nlp_model = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
 
     from sklearn.feature_extraction.text import CountVectorizer
     #--------------------------------------------------------------------------------
